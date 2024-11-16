@@ -1,74 +1,119 @@
-body {
+body{
     background-color: black;
     color: white;
-}
-#calculadoradivisorxd {
-    background-size: cover;
-    background-image: url("calculadora2.png");
-    aspect-ratio: 0.67;
-    width: 351px;
-    margin:0 auto ;
-    position: relative;
-}
-#labelEpika {
-    position: absolute;
-    left: 50px;
-    top: 90px;
-    background-color: transparent;
-    height: 10%;
-    width: 75%;
-    text-align: end;
-    font-size: 50px;
-    color: black;
-    font-family: "Tiny5", sans-serif;
-}
-#otradiv {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-    grid-gap: 5px;
-    grid-row-gap: 10px;
-    position: absolute;
-    left: 99px;
-    top: 270px;
-}
-#otradiv button {
-    height: 50px;
-}
-#Sizepls {
-    height: 150px;
-    width: 150px;
     
 }
-#positionpls {
+
+
+#verde {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 255, 0);
     position: absolute;
-    left: 180px;
-    top: 25px ;
+    left: 520px;
+    top: 150px;
 }
-#pospls {
+#verde:hover {
+    background-color: greenyellow;
+    font-size: 30px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#Minar {
+    background-color: rgb(0, 0, 0);
+    border-color: white;
     position: absolute;
-    right: 23px;
-    top: 268px;
+    top: 150px;
+    
+}
+#Minar:hover {
+    background-color: rgb(156, 156, 156);
+    font-size: 30px;
+}
+
+#Mejoras {
+    color: greenyellow;
+    background-color: green;
+}
+
+#paiedera {
+    height: 50px;
+    width: 50px ;
+}
+
+#a {
+    height: 50px;
+    width: 50px ;
+}
+
+#hierro {
     height: 50px;
     width: 50px;
+
 }
-#pospl {
+
+#hierroingot {
+   background-color: black;
+    border-radius: 0;
+    border-color: white;
     position: absolute;
-    right: 23px;
-    top: 325px;
+    right: 50px;
+    top: 150;
+}
+#hierroingot:hover{
+    background-color: white;
+    font-size: 30px;
+    font-family: "Lemon", serif;
+}
+#hierruno {
+    position: absolute;
+    right: 50px;
+    top: 300px;
+}
+#Vendehierro {
+    color: black;
+    background-color: black;
+    position: absolute;
+    top: 230px;
+    right: 50px;
+    font-size: 10px;
+}
+#Vendehierro:hover {
+    background-color: greenyellow;
+    font-size: 30px;
+    font-family: "Lemon", serif;
+}
+#imgdinero {
+    width: 50px;
     height: 50px;
-    width: 50px;
 }
-#posp {
-    position: absolute;
-    right: 23px;
-    top: 390px;
-    height: 100px;
-    width: 50px;
+
+#mejoraherro {
+    background-color: gray;
 }
-#iguak {
+
+#h { 
+    height: 80px;
+    width:  80px;
+}
+
+#Coal {
     position: absolute;
-    right: 23px;
-    top: 225px;
-    height: 30px;
-    width: 50px;
+    left: 50px;
+    top: 200px;
+    background-color: black;
+}
+#Coal:hover {
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 30px;
+}
+#Coalimg {
+    height: 50px;
+
+}
+#Coalcant {
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 250px;
 }
